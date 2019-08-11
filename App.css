@@ -4,19 +4,25 @@
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  height: 25vmin;
   pointer-events: none;
 }
 
 .App-header {
-  background-color:  darkcyan;/*#282c34;*/
+  background-color:  teal;/*#282c34;*/
   min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  
+}
+.App-header p {
+  font-family: 'Prompt', sans-serif;
+  font-size: 3em;
+  font-weight: bold;
   color: black;
+  margin: 20px;
 }
 
 .App-link {
@@ -24,19 +30,36 @@
 }
 
 .hero-container {
-  background-color: yellow;
+  background-color: gold;
   /* display: flex;
   flex-wrap: wrap; 
   margin-bottom: 100px;*/
 }
 
 .theRest {
-  background-color: blue;
+  background-color: mediumblue;
   text-align: center;
 }
 
+.theRest ul {
+  background: linear-gradient(to left,magenta,yellow, gold, lime, lime,yellow, yellow, gold,yellow,lawngreen,magenta);
+  background-size: 1000%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  font-size: 1.5em;
+  animation: listAnimation 10s infinite;
+}
+
+@keyframes listAnimation {
+  0% {background-position: left}
+  50% {background-position: right}
+  100% {background-position: left}
+}
+
 li {
-  margin-left: 10%;
+  margin-left: 15%;
   text-align: left;
 }
 

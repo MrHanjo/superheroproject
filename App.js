@@ -120,7 +120,7 @@ changePic2 = ()=> {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>Mikey Mikey Mikey's Superheroes</p>
+          <p>MikeyMikeyMikey's Superheroes</p>
         </header>
 
 {/*  Your heroes are here - somehow turn this into a COMPONENT .... Map them   */}
@@ -192,7 +192,6 @@ changePic2 = ()=> {
             })}
           </h1>
           <p>
-            {SuperList.superheroes[1].face} 
             This site will be like bookkeeping and netflix.<br/>  
             There's a bank of heroes  <br/>
             apprently all tags must have a closing slash in reactjs.
