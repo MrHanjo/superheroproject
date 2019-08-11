@@ -8,6 +8,8 @@
             "residence": "New York City",
             "occupation": "photographer",
             "image_alt": "maybe it's spiderman swinging around town",
+			"imgFaceNorm": "https://i.imgur.com/8IiOQQz.jpg",
+			"imgFaceHit": "#",
             "celestial_home": "earth",
             "enemies": [
                 "Venom", "Dr. Octopus", "Kraven", "The Lizard", "Green Goblin", "Hobgoblin"
@@ -29,6 +31,8 @@
             "residence": "New York City",
             "occupation": "Sexaroid for the Scarlett Witch",
             "image_alt": "Green and white outfits 2",
+			"imgFaceNorm": "https://i.imgur.com/7gwzydw.jpg",
+			"imgFaceHit": "https://i.imgur.com/HvNxlgX.jpg",
             "celestial_home": "earth",
             "enemies": [
                 "Ultron", "Dr. Doom", "Kang"
@@ -49,6 +53,8 @@
             "residence": "nomadic",
             "occupation": "sentinel of the spaceways",
             "image_alt": "soaring",
+			"imgFaceNorm": "https://i.imgur.com/ovI1asn.jpg",
+			"imgFaceHit": "#",
             "celestial_home": "Zenn La",
             "enemies": [
                 "Galactus", "Mephisto", "Thanos"
@@ -69,6 +75,8 @@
             "residence": "Latveria",
             "occupation": "conquorer",
             "image_alt": "Doom Majestic",
+			"imgFaceNorm": "https://i.imgur.com/NdnLz3L.jpg",
+			"imgFaceHit": "#",
             "celestial_home": "Latveria",
             "enemies": [
                 "Fantastic 4", "Avengers", "Superheroes"
@@ -89,6 +97,8 @@
             "residence": "Deutschland",
             "occupation": "acrobat",
             "image_alt": "Nightcrawler in the circus",
+			"imgFaceNorm": "#",
+			"imgFaceHit": "#",
             "celestial_home": "Earth",
             "enemies": [
                 "Magneto", "Sentinels", "Hellfire Club"
@@ -100,6 +110,29 @@
                 "stamina": 3,
                 "durability": 2,
                 "intelligence": 2
+            }
+        },
+		{
+            "id": 6,
+            "name": "Captain America",
+			"face": "cap",
+            "real_name": "Steve Rogers",
+            "residence": "New York City",
+            "occupation": "Boyscout",
+            "image_alt": "USAgent",
+			"imgFaceNorm": "https://i.imgur.com/ojeUxIE.jpg",
+			"imgFaceHit": "https://i.imgur.com/jZA3LCh.jpg",
+            "celestial_home": "earth",
+            "enemies": [
+                "Red Skull", "Baron Zemo"
+            ],
+            "power_ratings": {
+                "strength": 2,
+                "speed": 2,
+                "agility": 5,
+                "stamina": 4,
+                "durability": 2,
+                "intelligence": 3
             }
         }
     ]

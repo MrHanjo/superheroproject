@@ -32,6 +32,12 @@
 
 .theRest {
   background-color: blue;
+  text-align: center;
+}
+
+li {
+  margin-left: 10%;
+  text-align: left;
 }
 
 @keyframes App-logo-spin { /*how about here we put vision's face*/
